@@ -1,2 +1,8 @@
-/* eslint-disable no-console */
-console.log('it works!');
+/* eslint-disable import/extensions */
+import Widget from './Widget';
+
+// const widget = new Widget('wss://');
+
+const widget = new Widget('ws://127.0.0.1:7070/ws');
+
+widget.createForm();

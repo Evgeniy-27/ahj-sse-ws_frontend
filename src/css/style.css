@@ -1,4 +1,43 @@
 body {
-  background: #eee;
+  background: linear-gradient(#bbb, transparent 1px),
+    linear-gradient(90deg, #bbb, transparent 1px);
+  background-size: 15px 15px;
+  background-position: center center;
   text-align: center;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 0 20px 20px;
+  color:  #697179;
+  position: absolute;
+  z-index: 10000;
+  top: 20%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #bfcad3;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.input {
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border: 2px solid #b6b5cfc9;
+  background-color: #ffffff;
+}
+
+.btn {
+  width: 150px;
+  align-self: center;
+  margin-top: 15px;
+  padding: 9px 20px;
+  background-color: #ffffff;
+  border: 2px solid #bfcad3;
+  border-radius: 20px;
+  cursor: pointer;
+  color:  #697179;
 }
