@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8y406iu1exv3xee8?svg=true)](https://ci.appveyor.com/project/Evgeniy-27/ahj-sse-ws-frontend)
+
+
 ## Чат
 
 ### Легенда
